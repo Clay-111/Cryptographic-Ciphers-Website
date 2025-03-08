@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-weight: bold;
+}
+
+body{
+	padding: 70px;
+}
+
+#main1{
+	background-color: cyan;
+	padding: 70px;
+	margin: auto;
+	border: 2px solid black;
+	max-width: 500px;
+	width: 100%;
+}
+
+.div{
+	margin-bottom: 20px;
+	display: flex;
+	align-items: center;
+}
+
+.div .label{
+	width: 150px;
+}
+
+.input{
+	height: 30px;
+}
+
+.div222{
+	position: relative;
+	left: 150px;
+}
+
+#sub{
+	width: 120px;
+	height: 40px;
+	font-weight: bold;
+	background-color: #7CFC00;
+}
+
+#key1{
+	width: 165px;
+}
+
+#key{
+	width: 165px;
+}
+
+input[type="radio"] {
+  margin-right: 0;
+}
+
+form input[type="text"] {
+    text-transform: lowercase;
+}
+
+#text{
+	text-transform: lowercase;
+}
+
+#out{
+	text-transform: lowercase;
+}
+
+#cipher{
+	width: 165px;
+}
+
+#operation{
+	width: 165px;
+}
